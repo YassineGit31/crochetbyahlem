@@ -1,0 +1,164 @@
+@import "tailwindcss";
+
+/* Self-hosted fonts (fontsource) — bundled at build time, no runtime
+   dependency on fonts.googleapis.com. */
+@import "@fontsource/fraunces/400.css";
+@import "@fontsource/fraunces/500.css";
+@import "@fontsource/fraunces/600.css";
+@import "@fontsource/fraunces/400-italic.css";
+@import "@fontsource/manrope/400.css";
+@import "@fontsource/manrope/500.css";
+@import "@fontsource/manrope/600.css";
+@import "@fontsource/manrope/700.css";
+
+:root {
+  --font-fraunces: "Fraunces", ui-serif, Georgia, serif;
+  --font-manrope: "Manrope", ui-sans-serif, system-ui, sans-serif;
+
+  /* Base surfaces */
+  --color-cream: #fbf3ec;
+  --color-cream-dark: #f3e6da;
+  --color-ivory: #fffdf9;
+
+  /* Brand rose scale */
+  --color-rose-50: #fdf1f0;
+  --color-rose-100: #f8dee0;
+  --color-rose-200: #f0c4c9;
+  --color-rose-300: #e3a2ab;
+  --color-rose-400: #d2818e;
+  --color-rose-500: #be6274;
+  --color-rose-600: #a24c5e;
+  --color-rose-700: #813c4c;
+  --color-rose-800: #602e3b;
+
+  /* Ink (warm near-black, never pure black) */
+  --color-ink: #362a28;
+  --color-ink-light: #6f5e5a;
+  --color-ink-faint: #a3928d;
+
+  /* Accents */
+  --color-gold: #c9a15a;
+  --color-sage: #8a9a7e;
+}
+
+@theme inline {
+  --color-cream: var(--color-cream);
+  --color-cream-dark: var(--color-cream-dark);
+  --color-ivory: var(--color-ivory);
+
+  --color-rose-50: var(--color-rose-50);
+  --color-rose-100: var(--color-rose-100);
+  --color-rose-200: var(--color-rose-200);
+  --color-rose-300: var(--color-rose-300);
+  --color-rose-400: var(--color-rose-400);
+  --color-rose-500: var(--color-rose-500);
+  --color-rose-600: var(--color-rose-600);
+  --color-rose-700: var(--color-rose-700);
+  --color-rose-800: var(--color-rose-800);
+
+  --color-ink: var(--color-ink);
+  --color-ink-light: var(--color-ink-light);
+  --color-ink-faint: var(--color-ink-faint);
+
+  --color-gold: var(--color-gold);
+  --color-sage: var(--color-sage);
+
+  --font-display: var(--font-fraunces);
+  --font-body: var(--font-manrope);
+
+  --radius-card: 1.75rem;
+  --radius-soft: 1.125rem;
+
+  --shadow-bloom: 0 24px 48px -24px rgb(190 98 116 / 0.28);
+  --shadow-bloom-sm: 0 12px 28px -16px rgb(190 98 116 / 0.24);
+}
+
+* {
+  border-color: var(--color-rose-100);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+::selection {
+  background: var(--color-rose-200);
+  color: var(--color-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-rose-500);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* A hand-tied scalloped edge used between sections, standing in for a hard rule */
+.scallop-top {
+  position: relative;
+}
+.scallop-top::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 0;
+  right: 0;
+  height: 14px;
+  background-image: radial-gradient(circle at 10px 0, transparent 9px, var(--scallop-color, var(--color-cream)) 9.5px);
+  background-size: 20px 14px;
+  background-repeat: repeat-x;
+}
+
+/* Subtle looping-thread texture used as a low-opacity backdrop */
+.stitch-texture {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='84' height='48' viewBox='0 0 84 48'%3E%3Cpath d='M2 24c6-14 16-14 20 0s14 14 20 0 16-14 20 0 14 14 20 0' fill='none' stroke='%23BE6274' stroke-opacity='0.14' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+}
+
+.container-boutique {
+  width: 100%;
+  max-width: 78rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .container-boutique {
+    padding-inline: 2rem;
+  }
+}
+
+.input {
+  width: 100%;
+  border-radius: 1rem;
+  border: 1px solid var(--color-rose-200);
+  background: var(--color-ivory);
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  color: var(--color-ink);
+}
+.input:focus {
+  outline: none;
+  border-color: var(--color-rose-400);
+}
+.input::placeholder {
+  color: var(--color-ink-faint);
+}

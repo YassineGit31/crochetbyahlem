@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#F3E6DA"/>
+  <circle cx="300" cy="320" r="230" fill="#F8DEE0"/>
+  
+  <path d="M210 330 L390 330 L365 470 Q300 495 235 470 Z" fill="#E3A2AB"/>
+  <path d="M210 330 Q300 300 390 330" stroke="#BE6274" stroke-width="10" fill="none"/>
+  <ellipse cx="230" cy="234.3" rx="17.6" ry="26.0" fill="#D2818E" transform="rotate(0 230 270)"/><ellipse cx="230" cy="234.3" rx="17.6" ry="26.0" fill="#D2818E" transform="rotate(60 230 270)"/><ellipse cx="230" cy="234.3" rx="17.6" ry="26.0" fill="#D2818E" transform="rotate(120 230 270)"/><ellipse cx="230" cy="234.3" rx="17.6" ry="26.0" fill="#D2818E" transform="rotate(180 230 270)"/><ellipse cx="230" cy="234.3" rx="17.6" ry="26.0" fill="#D2818E" transform="rotate(240 230 270)"/><ellipse cx="230" cy="234.3" rx="17.6" ry="26.0" fill="#D2818E" transform="rotate(300 230 270)"/><circle cx="230" cy="270" r="14.3" fill="#C9A15A"/>
+  <ellipse cx="300" cy="197.5" rx="21.0" ry="31.0" fill="#FFFDF9" transform="rotate(0 300 240)"/><ellipse cx="300" cy="197.5" rx="21.0" ry="31.0" fill="#FFFDF9" transform="rotate(60 300 240)"/><ellipse cx="300" cy="197.5" rx="21.0" ry="31.0" fill="#FFFDF9" transform="rotate(120 300 240)"/><ellipse cx="300" cy="197.5" rx="21.0" ry="31.0" fill="#FFFDF9" transform="rotate(180 300 240)"/><ellipse cx="300" cy="197.5" rx="21.0" ry="31.0" fill="#FFFDF9" transform="rotate(240 300 240)"/><ellipse cx="300" cy="197.5" rx="21.0" ry="31.0" fill="#FFFDF9" transform="rotate(300 300 240)"/><circle cx="300" cy="240" r="17.0" fill="#C9A15A"/>
+  <ellipse cx="370" cy="234.3" rx="17.6" ry="26.0" fill="#D2818E" transform="rotate(0 370 270)"/><ellipse cx="370" cy="234.3" rx="17.6" ry="26.0" fill="#D2818E" transform="rotate(60 370 270)"/><ellipse cx="370" cy="234.3" rx="17.6" ry="26.0" fill="#D2818E" transform="rotate(120 370 270)"/><ellipse cx="370" cy="234.3" rx="17.6" ry="26.0" fill="#D2818E" transform="rotate(180 370 270)"/><ellipse cx="370" cy="234.3" rx="17.6" ry="26.0" fill="#D2818E" transform="rotate(240 370 270)"/><ellipse cx="370" cy="234.3" rx="17.6" ry="26.0" fill="#D2818E" transform="rotate(300 370 270)"/><circle cx="370" cy="270" r="14.3" fill="#C9A15A"/>
+  <path d="M230 330 L215 470 M300 335 L295 480 M370 330 L385 470" stroke="#BE6274" stroke-width="4" opacity="0.5"/>
+
+</svg>

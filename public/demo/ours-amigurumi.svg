@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#F3E6DA"/>
+  <circle cx="300" cy="320" r="230" fill="#F8DEE0"/>
+  
+  <ellipse cx="300" cy="430" rx="130" ry="110" fill="#D2818E"/>
+  <circle cx="215" cy="300" r="55" fill="#D2818E"/>
+  <circle cx="385" cy="300" r="55" fill="#D2818E"/>
+  <circle cx="215" cy="300" r="24" fill="#F0C4C9"/>
+  <circle cx="385" cy="300" r="24" fill="#F0C4C9"/>
+  <circle cx="300" cy="300" r="120" fill="#E3A2AB"/>
+  <circle cx="255" cy="280" r="12" fill="#362A28"/>
+  <circle cx="345" cy="280" r="12" fill="#362A28"/>
+  <ellipse cx="300" cy="320" rx="26" ry="20" fill="#FFFDF9"/>
+  <circle cx="300" cy="316" r="10" fill="#362A28"/>
+  <path d="M300 326 q0 18 -22 22" stroke="#362A28" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M300 326 q0 18 22 22" stroke="#362A28" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <circle cx="230" cy="430" r="34" fill="#E3A2AB"/>
+  <circle cx="370" cy="430" r="34" fill="#E3A2AB"/>
+  <circle cx="418.0" cy="300.0" r="5" fill="#FFFDF9" opacity="0.55"/>
+  <circle cx="406.3" cy="351.2" r="5" fill="#FFFDF9" opacity="0.55"/>
+  <circle cx="373.6" cy="392.3" r="5" fill="#FFFDF9" opacity="0.55"/>
+  <circle cx="326.3" cy="415.0" r="5" fill="#FFFDF9" opacity="0.55"/>
+  <circle cx="273.7" cy="415.0" r="5" fill="#FFFDF9" opacity="0.55"/>
+  <circle cx="226.4" cy="392.3" r="5" fill="#FFFDF9" opacity="0.55"/>
+  <circle cx="193.7" cy="351.2" r="5" fill="#FFFDF9" opacity="0.55"/>
+  <circle cx="182.0" cy="300.0" r="5" fill="#FFFDF9" opacity="0.55"/>
+  <circle cx="193.7" cy="248.8" r="5" fill="#FFFDF9" opacity="0.55"/>
+  <circle cx="226.4" cy="207.7" r="5" fill="#FFFDF9" opacity="0.55"/>
+  <circle cx="273.7" cy="185.0" r="5" fill="#FFFDF9" opacity="0.55"/>
+  <circle cx="326.3" cy="185.0" r="5" fill="#FFFDF9" opacity="0.55"/>
+  <circle cx="373.6" cy="207.7" r="5" fill="#FFFDF9" opacity="0.55"/>
+  <circle cx="406.3" cy="248.8" r="5" fill="#FFFDF9" opacity="0.55"/>
+
+</svg>
